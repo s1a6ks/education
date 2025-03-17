@@ -1,12 +1,12 @@
 <?php
-$start = microtime(true); // Початок вимірювання часу
+$start = microtime(true); 
 
 $product = 1;
 for ($i = 1; $i <= 10; $i++) {
     $product *= $i;
 }
 
-$end = microtime(true); // Кінець вимірювання часу
+$end = microtime(true); 
 $executionTime = $end - $start;
 
 echo "Добуток чисел від 1 до 10: $product <br>";
