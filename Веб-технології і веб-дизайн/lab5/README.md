@@ -12,6 +12,7 @@
 
 **Умова:**  
 Створіть форму для введення місяця та дня. Передайте їх методом GET та визначте пору року.
+
 ```php
 <?php
 if (isset($_GET['month']) && isset($_GET['day'])) {
@@ -42,7 +43,7 @@ if (isset($_GET['month']) && isset($_GET['day'])) {
     <input type="submit" value="Визначити">
 </form>
 ```
-[Переглянути код](lab5_task1.php)
+[Перейти до коду](lab5_task1.php)
 
 **Результат:**
 
@@ -55,7 +56,31 @@ if (isset($_GET['month']) && isset($_GET['day'])) {
 **Умова:**  
 Розробіть форму для введення тексту. Використовуйте метод POST. Перевірте, чи містить текст лише цифри.
 
-[Переглянути код](lab5_task2.php)
+```php
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $input_text = $_POST['text'];
+    echo "<h3>Результат:</h3>";
+
+    echo "<p><strong>Введений текст:</strong> $input_text</p>";
+
+    if (ctype_digit($input_text)) {
+        echo "Текст містить лише цифри.";
+    } else {
+        echo "Текст містить не лише цифри.";
+    }
+}
+?>
+
+<form action="lab5_task2.php" method="POST">
+    <label for="text">Введіть текст:</label>
+    <input type="text" id="text" name="text" required>
+    <input type="submit" value="Перевірити">
+</form>
+
+```
+
+[Перейти до коду](lab5_task2.php)
 
 **Результат:**
 
