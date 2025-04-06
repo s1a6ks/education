@@ -30,7 +30,7 @@ echo "Час виконання скрипту: " . number_format($executionTime
 ?>
 ```
 
-[Переглянути код](lab1_task1.php)
+[Перейти до коду](lab1_task1.php)
 
 **Результат:**
 
@@ -53,7 +53,7 @@ echo "Залишок від ділення $dividend на $divisor: $remainder";
 ?>
 ```
 
-[Переглянути код](lab1_task2.php)
+[Перейти до коду](lab1_task2.php)
 
 **Результат:**
 
