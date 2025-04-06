@@ -17,7 +17,7 @@
 
 **Результат:**
 
-![Скріншот Завдання 1](.screenshots/lab3_task1_src.png)
+![Скріншот Завдання 1](./screenshots/lab3_task1_src.png)
 
 ---
 
