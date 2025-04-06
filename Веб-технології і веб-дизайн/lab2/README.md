@@ -21,7 +21,7 @@ S = (α * r²) / 2
 
 🖼️ **Результат:**
 
-![Скріншот Завдання 1](screenshots/lab2_task1_src.pn)
+![Скріншот Завдання 1](screenshots/lab2_task1_src.png)
 
 ---
 
@@ -34,7 +34,7 @@ S = (α * r²) / 2
 
 🖼️ **Результат:**
 
-![Скріншот Завдання 2](screenshots/lab2_task1_src.pn)
+![Скріншот Завдання 2](screenshots/lab2_task1_src.png)
 
 ---
 
