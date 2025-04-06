@@ -13,7 +13,24 @@
 **Умова:**  
 Розрахунок часу виконання коду для обчислення добутку чисел від 1 до 10.
 
-[Переглянути код](lab5_task1.php)
+```php
+<?php
+$start = microtime(true); 
+
+$product = 1;
+for ($i = 1; $i <= 10; $i++) {
+    $product *= $i;
+}
+
+$end = microtime(true); 
+$executionTime = $end - $start;
+
+echo "Добуток чисел від 1 до 10: $product <br>";
+echo "Час виконання скрипту: " . number_format($executionTime, 10) . " секунд";
+?>
+```
+
+[Переглянути код](lab1_task1.php)
 
 **Результат:**
 
@@ -26,7 +43,17 @@
 **Умова:**  
 Виведення залишку від ділення числа (35 на 4).
 
-[Переглянути код](lab5_task2.php)
+```php
+<?php
+$dividend = 35;
+$divisor = 4;
+$remainder = $dividend % $divisor;
+
+echo "Залишок від ділення $dividend на $divisor: $remainder";
+?>
+```
+
+[Переглянути код](lab1_task2.php)
 
 **Результат:**
 
