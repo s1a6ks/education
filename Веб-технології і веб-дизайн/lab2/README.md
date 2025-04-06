@@ -34,7 +34,7 @@ S = (α * r²) / 2
 
 🖼️ **Результат:**
 
-![Скріншот Завдання 2](screenshots/lab2_task1_src.png)
+![Скріншот Завдання 2](./screenshots/lab2_task2_scr.png)
 
 ---
 
