@@ -30,4 +30,4 @@
 
 **Результат:**
 
-![Скріншот Завдання 2](./screenshots/lab3_task2_scr.png)
+![Скріншот Завдання 2](./screenshots/lab3_task2_src.png)
