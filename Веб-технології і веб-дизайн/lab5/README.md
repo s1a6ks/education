@@ -18,7 +18,7 @@
 **Результат:**
 
 ![Скріншот Завдання 1](./screenshots/lab5_task1_src.png)
-
+![Скріншот Завдання 1.1](./screenshots/lab5_task1.1_src.png)
 ---
 
 ## Завдання 2
@@ -30,4 +30,5 @@
 
 **Результат:**
 
-![Скріншот Завдання 2](./screenshots/lab5_task2_scr.png)
+![Скріншот Завдання 2](./screenshots/lab5_task2_src.png)
+![Скріншот Завдання 2.1](./screenshots/lab5_task2.1_src.png)
