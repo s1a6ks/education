@@ -13,7 +13,19 @@
 **Умова:**  
 Напишіть скрипт, який підраховує, скільки разів кожен елемент зустрічається в масиві.
 
-[Переглянути код](lab4_task1.php)
+```php
+<?php
+$array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
+$frequency = array_count_values($array);
+
+echo "<h3>Частотність елементів масиву:</h3>";
+foreach ($frequency as $key => $value) {
+    echo "$key зустрічається $value разів<br>";
+}
+?>
+```
+
+[Перейти до коду](lab4_task1.php)
 
 **Результат:**
 
@@ -26,7 +38,30 @@
 **Умова:**  
 Створіть функцію `isPrime($number)`, яка перевіряє, чи є число простим. Використайте її для чисел від 1 до 50.
 
-[Переглянути код](lab4_task2.php)
+```php
+<?php
+function isPrime($number) {
+    if ($number <= 1) {
+        return false;
+    }
+    for ($i = 2; $i <= sqrt($number); $i++) {
+        if ($number % $i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+echo "<h3>Просте число від 1 до 50:</h3>";
+for ($i = 1; $i <= 50; $i++) {
+    if (isPrime($i)) {
+        echo "$i є простим<br>";
+    }
+}
+?>
+```
+
+[Перейти до коду](lab4_task2.php)
 
 **Результат:**
 
