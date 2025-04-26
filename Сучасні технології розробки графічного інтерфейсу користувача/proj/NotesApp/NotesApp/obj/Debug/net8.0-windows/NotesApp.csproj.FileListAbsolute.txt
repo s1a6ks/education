@@ -1,8 +1,0 @@
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\NotesApp.csproj.AssemblyReference.cache
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\Views\NoteCard.g.cs
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\Views\NoteEditorWindow.g.cs
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\App.g.cs
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\NotesApp_MarkupCompile.cache
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\proj\NotesApp\NotesApp\obj\Debug\net8.0-windows\NotesApp_MarkupCompile.lref
