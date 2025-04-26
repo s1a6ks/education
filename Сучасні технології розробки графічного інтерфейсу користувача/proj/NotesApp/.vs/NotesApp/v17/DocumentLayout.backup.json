@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\views\\notecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\views\\notecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\views\\noteeditorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\views\\noteeditorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\views\\noteeditorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\views\\noteeditorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\views\\controls\\tagselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\views\\controls\\tagselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\views\\controls\\sidebarmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\views\\controls\\sidebarmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\viewmodels\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\viewmodels\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\viewmodels\\noteeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\viewmodels\\noteeditorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\services\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\services\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\notesapp\\notesapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1574DF1-ABB7-4755-B3FD-F0B2DC12281B}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoteCard.xaml.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\NoteCard.xaml.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Views\\NoteCard.xaml.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\NoteCard.xaml.cs",
+              "RelativeToolTip": "NotesApp\\Views\\NoteCard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:55:16.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoteEditorWindow.xaml",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\NoteEditorWindow.xaml",
+              "RelativeDocumentMoniker": "NotesApp\\Views\\NoteEditorWindow.xaml",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\NoteEditorWindow.xaml",
+              "RelativeToolTip": "NotesApp\\Views\\NoteEditorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-26T14:55:08.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "NotesApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "NotesApp\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:54:44.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "NotesApp\\App.xaml.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\App.xaml.cs",
+              "RelativeToolTip": "NotesApp\\App.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAASwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:43.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoteEditorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\NoteEditorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Views\\NoteEditorWindow.xaml.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\NoteEditorWindow.xaml.cs",
+              "RelativeToolTip": "NotesApp\\Views\\NoteEditorWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:26.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NotesApp\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:21.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TagSelector.xaml",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\Controls\\TagSelector.xaml",
+              "RelativeDocumentMoniker": "NotesApp\\Views\\Controls\\TagSelector.xaml",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\Controls\\TagSelector.xaml",
+              "RelativeToolTip": "NotesApp\\Views\\Controls\\TagSelector.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-26T14:53:16.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SidebarMenu.xaml",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\Controls\\SidebarMenu.xaml",
+              "RelativeDocumentMoniker": "NotesApp\\Views\\Controls\\SidebarMenu.xaml",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Views\\Controls\\SidebarMenu.xaml",
+              "RelativeToolTip": "NotesApp\\Views\\Controls\\SidebarMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-26T14:53:14.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "NotesApp\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "NotesApp\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:08.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchViewModel.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\SearchViewModel.cs",
+              "RelativeDocumentMoniker": "NotesApp\\ViewModels\\SearchViewModel.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\SearchViewModel.cs",
+              "RelativeToolTip": "NotesApp\\ViewModels\\SearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:07.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NoteViewModel.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\NoteViewModel.cs",
+              "RelativeDocumentMoniker": "NotesApp\\ViewModels\\NoteViewModel.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\NoteViewModel.cs",
+              "RelativeToolTip": "NotesApp\\ViewModels\\NoteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:04.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoteEditorViewModel.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\NoteEditorViewModel.cs",
+              "RelativeDocumentMoniker": "NotesApp\\ViewModels\\NoteEditorViewModel.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\NoteEditorViewModel.cs",
+              "RelativeToolTip": "NotesApp\\ViewModels\\NoteEditorViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:53:01.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "NotesApp\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "NotesApp\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:52:55.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Services\\NavigationService.cs*",
+              "RelativeToolTip": "NotesApp\\Services\\NavigationService.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:52:11.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JsonStorage.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Services\\JsonStorage.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Services\\JsonStorage.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Services\\JsonStorage.cs",
+              "RelativeToolTip": "NotesApp\\Services\\JsonStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:51:20.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Services\\DataService.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Services\\DataService.cs",
+              "RelativeToolTip": "NotesApp\\Services\\DataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:51:18.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Models\\Tag.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Models\\Tag.cs*",
+              "RelativeToolTip": "NotesApp\\Models\\Tag.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:51:12.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Models\\Note.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Models\\Note.cs",
+              "RelativeToolTip": "NotesApp\\Models\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:46:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\proj\\NotesApp\\NotesApp\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "NotesApp\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:45:58.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
