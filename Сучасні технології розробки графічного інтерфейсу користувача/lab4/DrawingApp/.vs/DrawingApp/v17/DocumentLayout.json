@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\DrawingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\drawingapp\\drawingapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|solutionrelative:drawingapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\drawingapp\\drawingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|solutionrelative:drawingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\drawingapp\\drawingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|solutionrelative:drawingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\drawingapp\\drawingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|solutionrelative:drawingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\drawingapp\\drawingapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C10E1D5C-7612-4CC4-A5D4-3AFABC9A5681}|DrawingApp\\DrawingApp.csproj|solutionrelative:drawingapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\DrawingApp\\DrawingApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DrawingApp\\MainWindow.xaml",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\DrawingApp\\DrawingApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DrawingApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\lab4\\DrawingApp\\DrawingApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "DrawingApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowE8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T17:10:44.996Z",
               "EditorCaption": ""

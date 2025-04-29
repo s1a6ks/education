@@ -9,7 +9,7 @@ namespace DrawingApp
 {
     public partial class MainWindow : Window
     {
-        private string selectedShape = "Ellipse"; // За замовченням
+        private string selectedShape = "Ellipse"; 
 
         public MainWindow()
         {
