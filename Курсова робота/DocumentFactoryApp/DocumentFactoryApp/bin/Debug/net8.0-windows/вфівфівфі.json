@@ -1,0 +1,9 @@
+{
+  "$type": "DocumentFactory.Models.Letter, DocumentFactoryApp",
+  "Recipient": "пвфіпфвіфівп",
+  "Subject": "віпффвфпіфпів",
+  "IsUrgent": true,
+  "Title": "кавсіфавфві",
+  "Author": "півфпівфпіфвп",
+  "CreatedDate": "2025-05-02T20:57:25.4601563+03:00"
+}
