@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Letter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Title>saddas</Title>
+  <Author>dasdas</Author>
+  <CreatedDate>2025-05-02T23:55:20.932941+03:00</CreatedDate>
+  <Recipient>dasads</Recipient>
+  <Subject>dasdas</Subject>
+  <IsUrgent>true</IsUrgent>
+</Letter>

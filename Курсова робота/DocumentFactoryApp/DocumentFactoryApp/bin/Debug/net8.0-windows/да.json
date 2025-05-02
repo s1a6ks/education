@@ -1,0 +1,9 @@
+{
+  "$type": "DocumentFactory.Models.Report, DocumentFactoryApp",
+  "Department": "вфівфі",
+  "Summary": "вфівфівфі",
+  "PageCount": 1,
+  "Title": "Перший",
+  "Author": "Максим",
+  "CreatedDate": "2025-05-03T00:12:14.470962+03:00"
+}

@@ -24,3 +24,5 @@ E:\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\o
 E:\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Debug\net8.0-windows\DocumentFactoryApp.pdb
 E:\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Debug\net8.0-windows\DocumentFactoryApp.genruntimeconfig.cache
 E:\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Debug\net8.0-windows\ref\DocumentFactoryApp.dll
+E:\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Debug\net8.0-windows\Views\DocumentDetailsWindow.baml
+E:\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Debug\net8.0-windows\Views\DocumentDetailsWindow.g.cs

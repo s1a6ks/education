@@ -9,5 +9,10 @@ namespace DocumentFactoryApp.Views
         {
             InitializeComponent();
         }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

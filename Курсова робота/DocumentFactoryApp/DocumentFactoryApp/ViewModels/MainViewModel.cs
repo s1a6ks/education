@@ -1,6 +1,7 @@
 ﻿// ViewModels/MainViewModel.cs
 using DocumentFactory.Models;
 using DocumentFactory.Services;
+using DocumentFactory.Views;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -49,6 +50,8 @@ namespace DocumentFactory.ViewModels
         public ICommand SaveAsXmlCommand { get; private set; }
         public ICommand LoadFromJsonCommand { get; private set; }
         public ICommand LoadFromXmlCommand { get; private set; }
+        public ICommand ClearFieldsCommand { get; private set; }
+        public ICommand ShowDetailsCommand { get; private set; }
 
         public MainViewModel()
         {
@@ -61,6 +64,8 @@ namespace DocumentFactory.ViewModels
             SaveAsXmlCommand = new RelayCommand(SaveAsXml, () => CurrentDocument != null);
             LoadFromJsonCommand = new RelayCommand(LoadFromJson);
             LoadFromXmlCommand = new RelayCommand(LoadFromXml);
+            ClearFieldsCommand = new RelayCommand(ClearFields);
+            ShowDetailsCommand = new RelayCommand(ShowDocumentDetails, () => CurrentDocument != null);
 
             // Встановлення типу за замовчуванням
             SelectedDocumentType = "Report";
@@ -405,34 +410,46 @@ namespace DocumentFactory.ViewModels
         {
             if (CurrentDocument == null) return;
 
+            // Обов'язково спочатку встановлюємо тип документа, щоб відповідні поля стали видимими
+            if (CurrentDocument is Report)
+            {
+                SelectedDocumentType = "Report";
+            }
+            else if (CurrentDocument is Letter)
+            {
+                SelectedDocumentType = "Letter";
+            }
+            else if (CurrentDocument is Presentation)
+            {
+                SelectedDocumentType = "Presentation";
+            }
+
             // Встановлення загальних властивостей
             Title = CurrentDocument.Title;
             Author = CurrentDocument.Author;
 
-            // Визначення типу документа і заповнення відповідних полів
+            // Заповнення специфічних полів залежно від типу документа
             if (CurrentDocument is Report report)
             {
-                SelectedDocumentType = "Report";
                 Department = report.Department;
                 Summary = report.Summary;
                 PageCount = report.PageCount;
             }
             else if (CurrentDocument is Letter letter)
             {
-                SelectedDocumentType = "Letter";
                 Recipient = letter.Recipient;
                 Subject = letter.Subject;
                 IsUrgent = letter.IsUrgent;
             }
             else if (CurrentDocument is Presentation presentation)
             {
-                SelectedDocumentType = "Presentation";
                 Theme = presentation.Theme;
                 TargetAudience = presentation.TargetAudience;
                 SlideCount = presentation.SlideCount;
             }
         }
 
+        // Метод для очищення полів форми (виконується за командою)
         private void ClearFields()
         {
             // Очищення всіх полів форми
@@ -447,7 +464,20 @@ namespace DocumentFactory.ViewModels
             Theme = string.Empty;
             TargetAudience = string.Empty;
             SlideCount = 0;
-            StatusMessage = string.Empty;
+            StatusMessage = "Всі поля очищено.";
+
+            // Очищаємо поточний документ
+            CurrentDocument = null;
+        }
+
+        // Метод для відображення інформації про документ у окремому вікні
+        private void ShowDocumentDetails()
+        {
+            if (CurrentDocument == null) return;
+
+            var detailsWindow = new DocumentDetailsWindow(CurrentDocument);
+            detailsWindow.Owner = Application.Current.MainWindow;
+            detailsWindow.ShowDialog();
         }
     }
 

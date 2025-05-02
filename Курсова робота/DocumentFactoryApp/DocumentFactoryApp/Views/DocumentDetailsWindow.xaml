@@ -1,0 +1,42 @@
+<Window x:Class="DocumentFactory.Views.DocumentDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Деталі документа" Height="400" Width="600"
+        WindowStartupLocation="CenterOwner" 
+        Background="#F5F5F5">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,15">
+            <TextBlock x:Name="TitleBlock" Text="Деталі документа" 
+                     FontSize="22" FontWeight="SemiBold" Margin="0,0,0,5" />
+            <Separator Background="#DDDDDD" />
+        </StackPanel>
+
+        <!-- Основний вміст -->
+        <Border Grid.Row="1" Background="White" BorderBrush="#DDDDDD" BorderThickness="1" Padding="15" 
+                CornerRadius="4" Margin="0,0,0,15">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <TextBlock x:Name="DetailsTextBlock" 
+                         Text="Деталі документа" 
+                         TextWrapping="Wrap" 
+                         FontFamily="Consolas"
+                         FontSize="14"
+                         LineHeight="22" />
+            </ScrollViewer>
+        </Border>
+
+        <!-- Кнопки -->
+        <Button Grid.Row="2" Content="Закрити" Width="120" HorizontalAlignment="Center" 
+                Click="CloseButton_Click" />
+    </Grid>
+</Window>

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\models\\documentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\models\\documentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|e:\\education\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\documentfactoryapp\\documentfactoryapp\\views\\documentdetailswindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7E69E194-698F-4A1E-AD54-C5F414393924}|DocumentFactoryApp\\DocumentFactoryApp.csproj|solutionrelative:documentfactoryapp\\views\\documentdetailswindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "DocumentFactoryApp\\ViewModels\\MainViewModel.cs",
               "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "DocumentFactoryApp\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAALYBAAAAAAAAAAAqwOEBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:49:35.866Z",
+              "WhenOpened": "2025-05-02T21:10:24.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DocumentService.cs",
-              "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Services\\DocumentService.cs",
-              "RelativeDocumentMoniker": "DocumentFactoryApp\\Services\\DocumentService.cs",
-              "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Services\\DocumentService.cs",
-              "RelativeToolTip": "DocumentFactoryApp\\Services\\DocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:49:00.449Z",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DocumentFactoryApp\\Views\\MainWindow.xaml",
+              "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "DocumentFactoryApp\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T21:09:56.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DocumentFactory.cs",
-              "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Models\\DocumentFactory.cs",
-              "RelativeDocumentMoniker": "DocumentFactoryApp\\Models\\DocumentFactory.cs",
-              "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Models\\DocumentFactory.cs",
-              "RelativeToolTip": "DocumentFactoryApp\\Models\\DocumentFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DocumentFactoryApp\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DocumentFactoryApp\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:48:48.474Z",
+              "WhenOpened": "2025-05-02T21:09:40.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Document.cs",
-              "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Models\\Document.cs",
-              "RelativeDocumentMoniker": "DocumentFactoryApp\\Models\\Document.cs",
-              "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Models\\Document.cs",
-              "RelativeToolTip": "DocumentFactoryApp\\Models\\Document.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:48:13.77Z",
+              "Title": "DocumentDetailsWindow.xaml",
+              "DocumentMoniker": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Views\\DocumentDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "DocumentFactoryApp\\Views\\DocumentDetailsWindow.xaml",
+              "ToolTip": "E:\\education\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\DocumentFactoryApp\\DocumentFactoryApp\\Views\\DocumentDetailsWindow.xaml",
+              "RelativeToolTip": "DocumentFactoryApp\\Views\\DocumentDetailsWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T21:09:25.789Z",
               "EditorCaption": ""
             }
           ]
