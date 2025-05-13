@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|c:\\edu\\education\\\u0441\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\horetskyiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|solutionrelative:kr\\horetskyiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\firstchildform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|solutionrelative:kr\\firstchildform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\secondchildform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|solutionrelative:kr\\secondchildform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\horetskyiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44A99E93-8153-401B-AFD8-2920BC8232DE}|kr\\kr.csproj|solutionrelative:kr\\horetskyiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HoretskyiForm.cs",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\HoretskyiForm.cs",
+              "RelativeDocumentMoniker": "kr\\HoretskyiForm.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\HoretskyiForm.cs",
+              "RelativeToolTip": "kr\\HoretskyiForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:45:31.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecondChildForm.cs [Design]",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\SecondChildForm.cs",
+              "RelativeDocumentMoniker": "kr\\SecondChildForm.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\SecondChildForm.cs [Design]",
+              "RelativeToolTip": "kr\\SecondChildForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:44:01.903Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstChildForm.cs [Design]",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\FirstChildForm.cs",
+              "RelativeDocumentMoniker": "kr\\FirstChildForm.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\FirstChildForm.cs [Design]",
+              "RelativeToolTip": "kr\\FirstChildForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:43:17.386Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HoretskyiForm.cs [Design]",
+              "DocumentMoniker": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\HoretskyiForm.cs",
+              "RelativeDocumentMoniker": "kr\\HoretskyiForm.cs",
+              "ToolTip": "C:\\edu\\education\\\u0421\u0443\u0447\u0430\u0441\u043D\u0456 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u0433\u0440\u0430\u0444\u0456\u0447\u043D\u043E\u0433\u043E \u0456\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0443 \u043A\u043E\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430\\kr\\kr\\HoretskyiForm.cs [Design]",
+              "RelativeToolTip": "kr\\HoretskyiForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:34:58.165Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
