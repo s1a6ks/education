@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Title>Проект</Title>
+  <Author>Горецький</Author>
+  <CreatedDate>2025-05-13T20:52:15.3568842+03:00</CreatedDate>
+  <Department>фізмат</Department>
+  <Summary>перший проект</Summary>
+  <PageCount>2</PageCount>
+</Report>
