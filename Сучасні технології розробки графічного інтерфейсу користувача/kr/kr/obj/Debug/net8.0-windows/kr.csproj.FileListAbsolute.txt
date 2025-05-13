@@ -1,5 +1,4 @@
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.FirstChildForm.resources
-C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.HoretskyiForm.resources
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.SecondChildForm.resources
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.csproj.GenerateResource.cache
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,3 +16,4 @@ C:\edu\education\Сучасні технології розробки графі
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.pdb
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.genruntimeconfig.cache
 C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\ref\kr.dll
+C:\edu\education\Сучасні технології розробки графічного інтерфейсу користувача\kr\kr\obj\Debug\net8.0-windows\kr.Дарманський.resources

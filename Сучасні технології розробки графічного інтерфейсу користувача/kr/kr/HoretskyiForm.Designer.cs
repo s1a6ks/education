@@ -1,6 +1,6 @@
 ﻿namespace kr
 {
-    partial class HoretskyiForm
+    partial class Дарманський
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,23 +35,23 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 12F);
-            button1.Location = new Point(79, 150);
+            button1.Font = new Font("Segoe UI", 10F);
+            button1.Location = new Point(56, 46);
             button1.Name = "button1";
-            button1.Size = new Size(150, 60);
+            button1.Size = new Size(110, 50);
             button1.TabIndex = 0;
-            button1.Text = "Перша форма";
+            button1.Text = "форма_1";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Font = new Font("Segoe UI", 12F);
-            button2.Location = new Point(254, 150);
+            button2.Font = new Font("Segoe UI", 10F);
+            button2.Location = new Point(56, 122);
             button2.Name = "button2";
-            button2.Size = new Size(150, 60);
+            button2.Size = new Size(110, 46);
             button2.TabIndex = 1;
-            button2.Text = "Друга форма";
+            button2.Text = "форма_2";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -61,11 +61,10 @@
             label1.Font = new Font("Segoe UI", 25F);
             label1.Location = new Point(79, 39);
             label1.Name = "label1";
-            label1.Size = new Size(325, 57);
+            label1.Size = new Size(0, 57);
             label1.TabIndex = 2;
-            label1.Text = "Головна форма";
             // 
-            // HoretskyiForm
+            // Дарманський
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -74,8 +73,9 @@
             Controls.Add(button2);
             Controls.Add(button1);
             IsMdiContainer = true;
-            Name = "HoretskyiForm";
-            Text = "HoretskyiForm";
+            Name = "Дарманський";
+            Text = "Дарманський";
+            Load += HoretskyiForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

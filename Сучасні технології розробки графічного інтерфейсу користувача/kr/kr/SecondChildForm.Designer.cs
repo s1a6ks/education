@@ -37,9 +37,8 @@
             label1.Font = new Font("Segoe UI", 25F);
             label1.Location = new Point(241, 89);
             label1.Name = "label1";
-            label1.Size = new Size(277, 57);
+            label1.Size = new Size(0, 57);
             label1.TabIndex = 3;
-            label1.Text = "Друга форма";
             // 
             // SecondChildForm
             // 
@@ -48,7 +47,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
             Name = "SecondChildForm";
-            Text = "SecondChildForm";
+            Text = "Форма 2";
             ResumeLayout(false);
             PerformLayout();
         }

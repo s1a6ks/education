@@ -1,8 +1,8 @@
 namespace kr
 {
-    public partial class HoretskyiForm : Form
+    public partial class Дарманський : Form
     {
-        public HoretskyiForm()
+        public Дарманський()
         {
             InitializeComponent();
         }
@@ -19,6 +19,11 @@ namespace kr
             SecondChildForm child2 = new();
             child2.MdiParent = this;
             child2.Show();
+        }
+
+        private void HoretskyiForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

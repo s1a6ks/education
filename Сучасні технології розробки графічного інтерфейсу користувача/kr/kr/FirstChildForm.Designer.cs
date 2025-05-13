@@ -37,9 +37,8 @@
             label1.Font = new Font("Segoe UI", 25F);
             label1.Location = new Point(242, 67);
             label1.Name = "label1";
-            label1.Size = new Size(298, 57);
+            label1.Size = new Size(0, 57);
             label1.TabIndex = 3;
-            label1.Text = "Перша форма";
             // 
             // FirstChildForm
             // 
@@ -48,7 +47,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
             Name = "FirstChildForm";
-            Text = "FirstChildForm";
+            Text = "форма_1";
             ResumeLayout(false);
             PerformLayout();
         }
