@@ -78,12 +78,10 @@ namespace DocumentFactory.ViewModels
             {
                 if (SetProperty(ref _selectedDocumentType, value))
                 {
-                    // Встановлюємо видимість полів відповідно до обраного типу документа
                     IsReportSelected = value == "Report";
                     IsLetterSelected = value == "Letter";
                     IsPresentationSelected = value == "Presentation";
 
-                    // Очищаємо поля форми при зміні типу документа
                     ClearFields();
                 }
             }
