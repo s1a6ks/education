@@ -3,23 +3,13 @@ import 'package:expense_tracker/widgets/expenses.dart'; // Імпорт файл
 
 // Визначення колірної схеми для світлої теми на основі заданого кольору (seedColor)
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: const Color.fromARGB(
-    255,
-    96,
-    59,
-    181,
-  ), // Колір-основа для генерації світлої колірної схеми
+  seedColor: const Color.fromARGB(255, 0, 150, 136), // Бірюзовий
 );
 
 // Визначення колірної схеми для темної теми
 var kDarkColorScheme = ColorScheme.fromSeed(
-  brightness: Brightness.dark, // Вказує, що це темна колірна схема
-  seedColor: const Color.fromARGB(
-    255,
-    5,
-    99,
-    125,
-  ), // Колір-основа для генерації темної колірної схеми
+  brightness: Brightness.dark,
+  seedColor: const Color.fromARGB(255, 255, 87, 34), // Глибокий оранжевий
 );
 
 void main() {

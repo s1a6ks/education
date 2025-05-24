@@ -1,86 +1,72 @@
-import 'package:flutter/material.dart'; // Імпорт основної бібліотеки віджетів Flutter
+import 'package:flutter/material.dart';
 
-import 'package:expense_tracker/widgets/new_expense.dart'; // Імпорт файлу з віджетом для додавання нової витрати
-import 'package:expense_tracker/widgets/expenses_list/expenses_list.dart'; // Імпорт файлу з віджетом для відображення списку витрат
-import 'package:expense_tracker/models/expense.dart'; // Імпорт файлу з моделлю даних витрати
-import 'package:expense_tracker/widgets/chart/chart.dart'; // Імпорт файлу з віджетом для відображення графіка витрат
+import 'package:expense_tracker/widgets/new_expense.dart';
+import 'package:expense_tracker/widgets/expenses_list/expenses_list.dart';
+import 'package:expense_tracker/models/expense.dart';
+import 'package:expense_tracker/widgets/chart/chart.dart';
 
-// Віджет Expenses є StatefulWidget, оскільки його стан (список витрат) може змінюватися
 class Expenses extends StatefulWidget {
   const Expenses({super.key});
 
   @override
   State<Expenses> createState() {
-    return _ExpensesState(); // Створення стану для віджета Expenses
+    return _ExpensesState();
   }
 }
 
-// Клас _ExpensesState представляє стан віджета Expenses
+
+
 class _ExpensesState extends State<Expenses> {
-  // Приватний список для зберігання зареєстрованих витрат
   final List<Expense> _registeredExpenses = [
     Expense(
-      title: 'Flutter Course', // Назва витрати
-      amount: 19.99, // Сума витрати
-      date: DateTime.now(), // Дата витрати (поточна дата)
-      category: Category.work, // Категорія витрати (робота)
+      title: 'Flutter Course',
+      amount: 19.99,
+      date: DateTime.now(),
+      category: Category.work,
+      familyMember: FamilyMember.father,
     ),
     Expense(
-      title: 'Cinema', // Назва витрати
-      amount: 15.69, // Сума витрати
-      date: DateTime.now(), // Дата витрати (поточна дата)
-      category: Category.leisure, // Категорія витрати (дозвілля)
+      title: 'Cinema',
+      amount: 15.69,
+      date: DateTime.now(),
+      category: Category.leisure,
+      familyMember: FamilyMember.mother,
     ),
   ];
 
-  // Метод для відкриття модального вікна додавання нової витрати
+  // 🔽 Додано змінну для фільтрації за членом сім’ї
+  FamilyMember? _selectedFamilyMember;
+
   void _openAddExpenseOverlay() {
     showModalBottomSheet(
-      isScrollControlled:
-          true, // Дозволяє модальному вікну займати більше половини екрана
-      context: context, // Контекст поточного віджета
-      builder:
-          (ctx) => NewExpense(
-            onAddExpense: _addExpense,
-          ), // Побудова вмісту модального вікна за допомогою віджета NewExpense та передача функції _addExpense
+      isScrollControlled: true,
+      context: context,
+      builder: (ctx) => NewExpense(onAddExpense: _addExpense),
     );
   }
 
-  // Метод для додавання нової витрати до списку
   void _addExpense(Expense expense) {
     setState(() {
-      _registeredExpenses.add(expense); // Додавання витрати до списку
-    }); // Виклик setState для оновлення UI
+      _registeredExpenses.add(expense);
+    });
   }
 
-  // Метод для видалення витрати зі списку
   void _removeExpense(Expense expense) {
-    final expenseIndex = _registeredExpenses.indexOf(
-      expense,
-    ); // Отримання індексу видаленої витрати
+    final expenseIndex = _registeredExpenses.indexOf(expense);
     setState(() {
-      _registeredExpenses.remove(expense); // Видалення витрати зі списку
-    }); // Виклик setState для оновлення UI
-    ScaffoldMessenger.of(
-      context,
-    ).clearSnackBars(); // Очищення попередніх SnackBar
+      _registeredExpenses.remove(expense);
+    });
+    ScaffoldMessenger.of(context).clearSnackBars();
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        duration: const Duration(
-          seconds: 3,
-        ), // Тривалість відображення SnackBar
-        content: const Text(
-          'Expense deleted.',
-        ), // Текст повідомлення у SnackBar
+        duration: const Duration(seconds: 3),
+        content: const Text('Expense deleted.'),
         action: SnackBarAction(
-          label: 'Undo', // Текст кнопки "Скасувати"
+          label: 'Undo',
           onPressed: () {
             setState(() {
-              _registeredExpenses.insert(
-                expenseIndex,
-                expense,
-              ); // Вставлення видаленої витрати назад у список
-            }); // Виклик setState для оновлення UI
+              _registeredExpenses.insert(expenseIndex, expense);
+            });
           },
         ),
       ),
@@ -89,40 +75,59 @@ class _ExpensesState extends State<Expenses> {
 
   @override
   Widget build(BuildContext context) {
-    // Визначення основного вмісту екрану (за замовчуванням - повідомлення про відсутність витрат)
+    // 🔽 Фільтрація витрат за членом сім’ї
+    final filteredExpenses = _registeredExpenses.where((expense) {
+      return _selectedFamilyMember == null ||
+          expense.familyMember == _selectedFamilyMember;
+    }).toList();
+
     Widget mainContent = const Center(
-      child: Text(
-        'No expenses found. Start adding some!',
-      ), // Повідомлення, якщо список витрат порожній
+      child: Text('No expenses found. Start adding some!'),
     );
 
-    // Якщо список витрат не порожній, відображати список витрат
-    if (_registeredExpenses.isNotEmpty) {
+    if (filteredExpenses.isNotEmpty) {
       mainContent = ExpensesList(
-        expenses:
-            _registeredExpenses, // Передача списку витрат до віджета ExpensesList
-        onRemoveExpense:
-            _removeExpense, // Передача функції для видалення витрати до віджета ExpensesList
+        expenses: filteredExpenses,
+        onRemoveExpense: _removeExpense,
       );
     }
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter ExpenseTracker'), // Заголовок AppBar
+        title: const Text('Flutter ExpenseTracker'),
         actions: [
           IconButton(
-            onPressed:
-                _openAddExpenseOverlay, // Виклик методу для відкриття модального вікна при натисканні
-            icon: const Icon(Icons.add), // Іконка кнопки додавання
+            onPressed: _openAddExpenseOverlay,
+            icon: const Icon(Icons.add),
           ),
         ],
       ),
       body: Column(
         children: [
-          Chart(expenses: _registeredExpenses), // Відображення графіка витрат
+          Chart(expenses: filteredExpenses),
+          // 🔽 Випадаючий список для вибору члена сім’ї
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            child: DropdownButton<FamilyMember>(
+              isExpanded: true,
+              hint: const Text("Виберіть члена сім’ї"),
+              value: _selectedFamilyMember,
+              onChanged: (member) {
+                setState(() {
+                  _selectedFamilyMember = member;
+                });
+              },
+              items: FamilyMember.values.map((member) {
+                return DropdownMenuItem(
+                  value: member,
+                  child: Text(member.name),
+                );
+              }).toList(),
+            ),
+          ),
           Expanded(
             child: mainContent,
-          ), // Розширення основного вмісту для заповнення доступного простору
+          ),
         ],
       ),
     );

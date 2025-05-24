@@ -39,8 +39,9 @@ class ExpenseItem extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  '\$${expense.amount.toStringAsFixed(2)}',
-                ), // Відображення суми витрати з двома знаками після коми
+                  '\$${expense.amount.toStringAsFixed(2)} ',
+                ),
+                Text(expense.familyMember.toString().split('.').last), // Відображення члена сім'ї, який здійснив витрату
                 const Spacer(), // Займає все доступне горизонтальне місце, щоб розтягнути елементи
                 Row(
                   children: [
@@ -49,7 +50,8 @@ class ExpenseItem extends StatelessWidget {
                     ), // Відображення іконки, що відповідає категорії витрати (map categoryIcons має бути визначено в expense.dart)
                     const SizedBox(
                       width: 8,
-                    ), // Додавання невеликого горизонтального відступу між іконкою та датою
+                    ),
+                     // Додавання невеликого горизонтального відступу між іконкою та датою
                     Text(
                       expense.formattedDate,
                     ), // Відображення форматованої дати витрати (логіка форматування має бути в моделі Expense)

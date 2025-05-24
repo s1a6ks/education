@@ -8,15 +8,17 @@ final formatter =
 const uuid =
     Uuid(); // Створення екземпляра класу Uuid для генерації унікальних ID
 
-// Перелік можливих категорій витрат
-enum Category { food, travel, leisure, work }
+enum FamilyMember { father, mother, child1, child2 }
 
-// Мапа, яка пов'язує кожну категорію з відповідною іконкою
+// Перелік можливих категорій витрат
+enum Category { food, travel, leisure, work, entertainment }
+
 const categoryIcons = {
-  Category.food: Icons.lunch_dining, // Іконка для категорії "їжа"
-  Category.travel: Icons.flight_takeoff, // Іконка для категорії "подорожі"
-  Category.leisure: Icons.movie, // Іконка для категорії "дозвілля"
-  Category.work: Icons.work, // Іконка для категорії "робота"
+  Category.food: Icons.lunch_dining,
+  Category.travel: Icons.flight_takeoff,
+  Category.leisure: Icons.movie,
+  Category.work: Icons.work,
+  Category.entertainment: Icons.music_note,
 };
 
 // Клас, що представляє окрему витрату
@@ -26,6 +28,7 @@ class Expense {
     required this.amount, // Сума витрати
     required this.date, // Дата витрати
     required this.category, // Категорія витрати
+     required this.familyMember,
   }) : id =
            uuid.v4(); // При створенні об'єкта Expense генерується унікальний ID
 
@@ -34,6 +37,7 @@ class Expense {
   final double amount; // Сума витрати
   final DateTime date; // Дата витрати
   final Category category; // Категорія витрати
+  final FamilyMember familyMember;
 
   // Геттер для отримання форматованої дати витрати
   String get formattedDate {

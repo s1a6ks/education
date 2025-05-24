@@ -26,6 +26,7 @@ class _NewExpenseState extends State<NewExpense> {
   Category _selectedCategory =
       Category
           .leisure; // Змінна для зберігання обраної категорії витрати (за замовчуванням - дозвілля)
+  FamilyMember? _selectedFamilyMember;
 
   // Метод для відображення вікна вибору дати
   void _presentDatePicker() async {
@@ -48,6 +49,29 @@ class _NewExpenseState extends State<NewExpense> {
 
   // Метод для обробки відправки даних про витрату
   void _submitExpenseData() {
+    if (_titleController.text.trim().isEmpty ||
+        _amountController.text.trim().isEmpty ||
+        double.tryParse(_amountController.text) == null ||
+        double.parse(_amountController.text) <= 0) {
+      showDialog(
+        context: context,
+        builder:
+            (ctx) => AlertDialog(
+              title: const Text('Неправильний ввід'),
+              content: const Text(
+                'Будь ласка, введіть коректну назву та суму > 0.',
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(ctx).pop(),
+                  child: const Text('ОК'),
+                ),
+              ],
+            ),
+      );
+      return;
+    }
+
     final enteredAmount = double.tryParse(
       _amountController
           .text, // Спроба перетворити введений текст у число з плаваючою комою
@@ -92,6 +116,10 @@ class _NewExpenseState extends State<NewExpense> {
         amount: enteredAmount, // Отримання суми (вже перевірено на null)
         date: _selectedDate!, // Отримання обраної дати (вже перевірено на null)
         category: _selectedCategory, // Отримання обраної категорії
+        familyMember:
+            _selectedFamilyMember ??
+            FamilyMember
+                .father, // Отримання обраного члена сім'ї або за замовчуванням "father"
       ),
     );
     Navigator.pop(context); // Закриття модального вікна після додавання витрати
@@ -210,6 +238,24 @@ class _NewExpenseState extends State<NewExpense> {
                   ); // Закриття модального вікна при натисканні кнопки "Cancel"
                 },
                 child: const Text('Cancel'), // Текст кнопки "Cancel"
+              ),
+              DropdownButton<FamilyMember>(
+                value: _selectedFamilyMember,
+                hint: Text('Оберіть члена сім’ї'),
+                items:
+                    FamilyMember.values.map((member) {
+                      return DropdownMenuItem(
+                        value: member,
+                        child: Text(
+                          member.toString().split('.').last,
+                        ), // показує просто Father, Mother і т.п.
+                      );
+                    }).toList(),
+                onChanged: (value) {
+                  setState(() {
+                    _selectedFamilyMember = value;
+                  });
+                },
               ),
               ElevatedButton(
                 onPressed:
