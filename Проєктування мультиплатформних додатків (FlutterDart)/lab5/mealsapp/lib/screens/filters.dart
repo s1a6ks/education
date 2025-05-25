@@ -9,6 +9,7 @@ enum Filter {
   lactoseFree, // Без лактози
   vegetarian, // Вегетаріанська
   vegan, // Веганська
+  lowCarb, // Низьковуглеводна
 }
 
 // Віджет FiltersScreen є StatefulWidget, оскільки стан фільтрів змінюється
@@ -33,6 +34,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
   var _lactoseFreeFilterSet = false; // Змінна стану для фільтра "без лактози"
   var _vegetarianFilterSet = false; // Змінна стану для фільтра "вегетаріанська"
   var _veganFilterSet = false; // Змінна стану для фільтра "веганська"
+  var _lowCarbFilterSet = false;
 
   @override
   void initState() {
@@ -77,6 +79,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
             Filter.lactoseFree: _lactoseFreeFilterSet,
             Filter.vegetarian: _vegetarianFilterSet,
             Filter.vegan: _veganFilterSet,
+            Filter.lowCarb: _lowCarbFilterSet,
           });
           return false; // Повернення false запобігає стандартній дії кнопки "Назад"
         },
@@ -162,6 +165,33 @@ class _FiltersScreenState extends State<FiltersScreen> {
               ),
               activeColor: Theme.of(context).colorScheme.tertiary,
               contentPadding: const EdgeInsets.only(left: 34, right: 22),
+            ),
+
+            SwitchListTile(
+              value: _lowCarbFilterSet,
+              onChanged: (isChecked) {
+                setState(() {
+                  _lowCarbFilterSet = isChecked;
+                });
+              },
+
+
+              title: Text(
+                'Low Carb',
+                style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                  color: Theme.of(context).colorScheme.onBackground,
+                ),
+              ),
+              subtitle: Text(
+                'Only include low-carb meals.',
+                style: Theme.of(context).textTheme.labelMedium!.copyWith(
+                  color: Theme.of(context).colorScheme.onBackground,
+                ),
+              ),
+                activeColor: Theme.of(context).colorScheme.tertiary,
+               contentPadding: const EdgeInsets.only(left: 34, right: 22),
+
+
             ),
             SwitchListTile(
               value: _veganFilterSet,

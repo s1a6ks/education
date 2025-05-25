@@ -1,114 +1,98 @@
-import 'package:flutter/material.dart'; // Імпорт основної бібліотеки віджетів Flutter (для Material Design)
+import 'package:flutter/material.dart';
+import 'package:meals/models/meal.dart';
 
-import 'package:meals/models/meal.dart'; // Імпорт файлу з моделлю даних Страви
-
-// Віджет MealDetailsScreen є StatelessWidget, оскільки він відображає дані, передані йому через конструктор
-class MealDetailsScreen extends StatelessWidget {
+class MealDetailsScreen extends StatefulWidget {
   const MealDetailsScreen({
     super.key,
-    required this.meal, // Об'єкт страви, деталі якої потрібно відобразити
-    required this.onToggleFavorite, // Функція зворотного виклику для обробки позначки "улюблене"
+    required this.meal,
+    required this.onToggleFavorite,
+    required this.isFavorite,
   });
 
-  final Meal meal; // Страва для відображення деталей
-  final void Function(Meal meal)
-  onToggleFavorite; // Функція для перемикання статусу "улюблене"
+  final Meal meal;
+  final void Function(Meal meal) onToggleFavorite;
+  final bool isFavorite;
+
+  @override
+  State<MealDetailsScreen> createState() => _MealDetailsScreenState();
+}
+
+class _MealDetailsScreenState extends State<MealDetailsScreen> {
+  late bool _isFavorite;
+
+  @override
+  void initState() {
+    super.initState();
+    _isFavorite = widget.isFavorite;
+  }
+
+  void _toggleFavorite() {
+    setState(() {
+      _isFavorite = !_isFavorite;
+    });
+    widget.onToggleFavorite(widget.meal);
+  }
 
   @override
   Widget build(BuildContext context) {
-    // Метод build описує UI екрану деталей страви
     return Scaffold(
-      // Віджет Scaffold надає базову структуру екрану
       appBar: AppBar(
-        // Панель застосунку
-        title: Text(meal.title), // Заголовок панелі застосунку - назва страви
+        title: Text(widget.meal.title),
         actions: [
-          // Дії (кнопки) у панелі застосунку
-          IconButton(
-            onPressed: () {
-              // Функція, яка викликається при натисканні кнопки
-              onToggleFavorite(
-                meal,
-              ); // Виклик функції обробки "улюблене", передаючи поточну страву
-            },
-            icon: const Icon(Icons.star), // Іконка кнопки "улюблене" (зірка)
+          Padding(
+            padding: const EdgeInsets.only(right: 16.0),
+            child: IconButton(
+              onPressed: _toggleFavorite,
+              icon: Icon(
+                _isFavorite ?  Icons.star_border : Icons.star ,
+              ),
+            ),
           ),
         ],
       ),
       body: SingleChildScrollView(
-        // Тіло екрану, обгорнуте в SingleChildScrollView для можливості прокручування
         child: Column(
-          // Вміст тіла екрану, розташований у вертикальному стовпці
           children: [
-            // Відображення зображення страви з мережі
             Image.network(
-              meal.imageUrl, // URL зображення страви
-              height: 300, // Висота зображення
-              width:
-                  double.infinity, // Ширина зображення (на всю доступну ширину)
-              fit:
-                  BoxFit
-                      .cover, // Масштабування зображення для заповнення області зі збереженням співвідношення сторін
+              widget.meal.imageUrl,
+              height: 300,
+              width: double.infinity,
+              fit: BoxFit.cover,
             ),
-            const SizedBox(height: 14), // Додавання вертикального відступу
-            // Заголовок "Ingredients" (Інгредієнти)
+            const SizedBox(height: 14),
             Text(
               'Ingredients',
               style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                // Стиль заголовка
-                color:
-                    Theme.of(
-                      context,
-                    ).colorScheme.primary, // Колір з колірної схеми теми
-                fontWeight: FontWeight.bold, // Жирний шрифт
-              ),
+                    color: Theme.of(context).colorScheme.primary,
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
-            const SizedBox(height: 14), // Додавання вертикального відступу
-            // Перебір списку інгредієнтів та відображення кожного як окремого текстового елемента
-            for (final ingredient in meal.ingredients)
+            const SizedBox(height: 14),
+            for (final ingredient in widget.meal.ingredients)
               Text(
-                ingredient, // Текст інгредієнта
+                ingredient,
                 style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                  // Стиль тексту інгредієнта
-                  color:
-                      Theme.of(
-                        context,
-                      ).colorScheme.onBackground, // Колір тексту на фоні
-                ),
+                      color: Theme.of(context).colorScheme.onBackground,
+                    ),
               ),
-            const SizedBox(
-              height: 24,
-            ), // Додавання більшого вертикального відступу
-            // Заголовок "Steps" (Кроки)
+            const SizedBox(height: 24),
             Text(
               'Steps',
               style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                // Стиль заголовка
-                color:
-                    Theme.of(
-                      context,
-                    ).colorScheme.primary, // Колір з колірної схеми теми
-                fontWeight: FontWeight.bold, // Жирний шрифт
-              ),
-            ),
-            const SizedBox(height: 14), // Додавання вертикального відступу
-            // Перебір списку кроків приготування та відображення кожного як окремого текстового елемента
-            for (final step in meal.steps)
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12, // Горизонтальні відступи навколо тексту кроку
-                  vertical: 8, // Вертикальні відступи навколо тексту кроку
-                ),
-                child: Text(
-                  step, // Текст кроку
-                  textAlign: TextAlign.center, // Вирівнювання тексту по центру
-                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                    // Стиль тексту кроку
-                    color:
-                        Theme.of(
-                          context,
-                        ).colorScheme.onBackground, // Колір тексту на фоні
+                    color: Theme.of(context).colorScheme.primary,
+                    fontWeight: FontWeight.bold,
                   ),
+            ),
+            const SizedBox(height: 14),
+            for (final step in widget.meal.steps)
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                child: Text(
+                  step,
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                        color: Theme.of(context).colorScheme.onBackground,
+                      ),
                 ),
               ),
           ],

@@ -40,7 +40,7 @@ class CategoriesScreen extends StatelessWidget {
               meals:
                   filteredMeals, // Передача відфільтрованого списку страв на екран страв
               onToggleFavorite:
-                  onToggleFavorite, // Передача функції обробки улюблених страв далі
+                  onToggleFavorite, favoriteMeals: [], // Передача функції обробки улюблених страв далі
             ),
       ),
     ); // Navigator.push(context, route) - альтернативний спосіб

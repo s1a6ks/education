@@ -13,6 +13,7 @@ const kInitialFilters = {
   Filter.lactoseFree: false, // Фільтр "без лактози" вимкнено за замовчуванням
   Filter.vegetarian: false, // Фільтр "вегетаріанська" вимкнено за замовчуванням
   Filter.vegan: false, // Фільтр "веганська" вимкнено за замовчуванням
+  Filter.lowCarb: false, // Фільтр "низьковуглеводна" вимкнено за замовчуванням
 };
 
 // Віджет TabsScreen є StatefulWidget, оскільки стан (обрана вкладка, улюблені страви, фільтри) змінюється
@@ -111,6 +112,13 @@ class _TabsScreenState extends State<TabsScreen> {
           if (_selectedFilters[Filter.glutenFree]! && !meal.isGlutenFree) {
             return false; // Якщо фільтр "без глютену" увімкнено, а страва містить глютен - виключаємо
           }
+          
+          
+          if (_selectedFilters[Filter.lowCarb]! && !meal.isLowCarb) {
+            return false;
+          }
+
+
           if (_selectedFilters[Filter.lactoseFree]! && !meal.isLactoseFree) {
             return false; // Якщо фільтр "без лактози" увімкнено, а страва містить лактозу - виключаємо
           }
@@ -137,7 +145,7 @@ class _TabsScreenState extends State<TabsScreen> {
       activePage = MealsScreen(
         meals: _favoriteMeals, // Відображаємо список улюблених страв
         onToggleFavorite:
-            _toggleMealFavoriteStatus, // Передача функції обробки "улюблене"
+            _toggleMealFavoriteStatus, favoriteMeals: [], // Передача функції обробки "улюблене"
       );
       activePageTitle = 'Your Favorites'; // Заголовок для екрану улюблених
     }

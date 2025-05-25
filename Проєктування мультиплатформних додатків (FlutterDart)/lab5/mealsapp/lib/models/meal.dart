@@ -29,6 +29,7 @@ class Meal {
     required this.isLactoseFree, // Обов'язковий параметр: чи страва без лактози
     required this.isVegan, // Обов'язковий параметр: чи страва веганська
     required this.isVegetarian, // Обов'язковий параметр: чи страва вегетаріанська
+    required this.isLowCarb, // Обов'язковий параметр: чи страва з низьким вмістом вуглеводів
   });
 
   final String id; // Властивість для зберігання ідентифікатора страви
@@ -48,6 +49,7 @@ class Meal {
   final bool isGlutenFree; // Властивість для зберігання статусу "без глютену"
   final bool isLactoseFree; // Властивість для зберігання статусу "без лактози"
   final bool isVegan; // Властивість для зберігання статусу "веганська"
+  final bool isLowCarb;
   final bool
   isVegetarian; // Властивість для зберігання статусу "вегетаріанська"
 }

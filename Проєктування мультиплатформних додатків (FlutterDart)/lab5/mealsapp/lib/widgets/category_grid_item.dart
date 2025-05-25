@@ -29,23 +29,12 @@ class CategoryGridItem extends StatelessWidget {
         // Контейнер для вмісту елемента сітки
         padding: const EdgeInsets.all(16), // Внутрішні відступи контейнера
         decoration: BoxDecoration(
-          // Оформлення контейнера
-          borderRadius: BorderRadius.circular(
-            16,
-          ), // Заокруглення кутів контейнера
           gradient: LinearGradient(
-            // Градієнтний фон
-            colors: [
-              // Кольори градієнта, засновані на кольорі категорії з різною прозорістю
-              category.color.withOpacity(0.55),
-              category.color.withOpacity(0.9),
-            ],
-            begin:
-                Alignment.topLeft, // Початок градієнта з верхнього лівого кута
-            end:
-                Alignment
-                    .bottomRight, // Кінець градієнта у нижньому правому куті
+            colors: [category.color.withOpacity(0.4), category.color],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
           ),
+          borderRadius: BorderRadius.circular(16),
         ),
         child: Text(
           category.title, // Відображення назви категорії

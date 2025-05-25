@@ -1,105 +1,153 @@
-import 'package:flutter/material.dart'; // Імпорт основної бібліотеки віджетів Flutter (для Material Design та навігації)
+import 'package:flutter/material.dart';
 
-import 'package:meals/models/meal.dart'; // Імпорт файлу з моделлю даних Страви
-import 'package:meals/screens/meal_details.dart'; // Імпорт файлу з віджетом екрану деталей страви
-import 'package:meals/widgets/meal_item.dart'; // Імпорт файлу з віджетом для відображення одного елемента списку страв
+import 'package:meals/models/meal.dart';
+import 'package:meals/screens/meal_details.dart';
+import 'package:meals/widgets/meal_item.dart';
 
-// Віджет MealsScreen є StatelessWidget, оскільки відображає список страв та заголовок, передані йому
-class MealsScreen extends StatelessWidget {
+enum SortOption { byTitle, byDuration, byComplexity }
+
+class MealsScreen extends StatefulWidget {
   const MealsScreen({
     super.key,
-    this.title, // Необов'язковий параметр: заголовок екрану (наприклад, назва категорії)
-    required this.meals, // Обов'язковий параметр: список страв для відображення
-    required this.onToggleFavorite, // Обов'язковий параметр: функція зворотного виклику для обробки "улюблене" (передається далі)
+    this.title,
+    required this.meals,
+    required this.onToggleFavorite,
+    required this.favoriteMeals,
   });
 
-  final String? title; // Заголовок екрану (може бути null)
-  final List<Meal> meals; // Список страв
-  final void Function(Meal meal)
-  onToggleFavorite; // Функція для обробки улюблених страв
+  final String? title;
+  final List<Meal> meals;
+  final void Function(Meal meal) onToggleFavorite;
+  final List<Meal> favoriteMeals;
 
-  // Метод для обробки вибору страви зі списку
-  void selectMeal(BuildContext context, Meal meal) {
-    // Здійснюємо навігацію на екран деталей страви
-    Navigator.of(context).push(
+  @override
+  State<MealsScreen> createState() => _MealsScreenState();
+}
+
+class _MealsScreenState extends State<MealsScreen> {
+  String _searchQuery = '';
+  SortOption _sortOption = SortOption.byTitle; // Початковий критерій сортування
+
+  void _selectMeal(BuildContext context, Meal meal) {
+    Navigator.push(
+      context,
       MaterialPageRoute(
-        // Створення маршруту до екрану деталей страви
-        builder:
-            (ctx) => MealDetailsScreen(
-              // Побудова віджета MealDetailsScreen
-              meal: meal, // Передача обраної страви на екран деталей
-              onToggleFavorite:
-                  onToggleFavorite, // Передача функції обробки улюблених страв далі
-            ),
+        builder: (ctx) => MealDetailsScreen(
+          meal: meal,
+          onToggleFavorite: widget.onToggleFavorite,
+          isFavorite: widget.favoriteMeals.contains(meal),
+        ),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    // Визначення вмісту, який буде відображено, якщо список страв порожній
-    Widget content = Center(
-      child: Column(
-        mainAxisSize:
-            MainAxisSize
-                .min, // Займає мінімальний необхідний розмір по головній осі (вертикалі)
+    // Фільтрація за пошуком
+    final filteredMeals = widget.meals.where((meal) {
+      return meal.title.toLowerCase().contains(_searchQuery.toLowerCase());
+    }).toList();
+
+    // Сортування згідно з вибраним критерієм
+    filteredMeals.sort((a, b) {
+      switch (_sortOption) {
+        case SortOption.byTitle:
+          return a.title.compareTo(b.title);
+        case SortOption.byDuration:
+          return a.duration.compareTo(b.duration);
+        case SortOption.byComplexity:
+          // Припускаємо, що complexity - enum, якщо ні - адаптуй
+          return a.complexity.index.compareTo(b.complexity.index);
+      }
+    });
+
+    Widget content;
+
+    if (filteredMeals.isEmpty) {
+      content = Center(
+        child: Text(
+          'No meals found.',
+          style: Theme.of(context).textTheme.headlineSmall,
+        ),
+      );
+    } else {
+     content = Column(
+  children: [
+    Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Row(
         children: [
-          // Текст повідомлення про відсутність страв
-          Text(
-            'Uh oh ... nothing here!',
-            style: Theme.of(context).textTheme.headlineLarge!.copyWith(
-              // Стиль тексту заголовка
-              color: Theme.of(context).colorScheme.onBackground, // Колір тексту
-            ),
+          // Dropdown зліва
+          DropdownButton<SortOption>(
+            value: _sortOption,
+            items: const [
+              DropdownMenuItem(
+                value: SortOption.byTitle,
+                child: Text('Sort by Title'),
+              ),
+              DropdownMenuItem(
+                value: SortOption.byDuration,
+                child: Text('Sort by Duration'),
+              ),
+              DropdownMenuItem(
+                value: SortOption.byComplexity,
+                child: Text('Sort by Complexity'),
+              ),
+            ],
+            onChanged: (value) {
+              if (value != null) {
+                setState(() {
+                  _sortOption = value;
+                });
+              }
+            },
           ),
-          const SizedBox(height: 16), // Додавання вертикального відступу
-          // Текст підказки
-          Text(
-            'Try selecting a different category!',
-            style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-              // Стиль основного тексту
-              color: Theme.of(context).colorScheme.onBackground, // Колір тексту
+
+          const SizedBox(width: 12), // відступ між Dropdown і полем пошуку
+
+          // Поле пошуку займає залишок простору
+          Expanded(
+            child: TextField(
+              decoration: InputDecoration(
+                labelText: 'Search meals...',
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                prefixIcon: const Icon(Icons.search),
+              ),
+              onChanged: (value) {
+                setState(() {
+                  _searchQuery = value;
+                });
+              },
             ),
           ),
         ],
       ),
-    );
+    ),
 
-    // Якщо список страв не порожній, вміст екрану буде списком страв
-    if (meals.isNotEmpty) {
-      content = ListView.builder(
-        itemCount: meals.length, // Кількість елементів у списку
-        itemBuilder:
-            (ctx, index) => MealItem(
-              // Побудова віджета MealItem для кожного елемента списку
-              meal:
-                  meals[index], // Передача поточної страви до віджета MealItem
-              onSelectMeal: (meal) {
-                // Передача функції зворотного виклику, яка викликається при натисканні на елемент списку
-                selectMeal(
-                  context,
-                  meal,
-                ); // Виклик приватного методу selectMeal
-              },
-            ),
-      );
+    Expanded(
+      child: ListView.builder(
+        itemCount: filteredMeals.length,
+        itemBuilder: (ctx, index) => MealItem(
+          meal: filteredMeals[index],
+          onSelectMeal: (meal) => _selectMeal(context, meal),
+        ),
+      ),
+    ),
+  ],
+);
     }
 
-    // Якщо заголовок екрану не задано (null), повертаємо лише вміст без AppBar та Scaffold
-    if (title == null) {
+    if (widget.title == null) {
       return content;
     }
 
-    // Якщо заголовок задано, повертаємо Scaffold з AppBar та вмістом
     return Scaffold(
       appBar: AppBar(
-        // Панель застосунку
-        title: Text(
-          title!,
-        ), // Заголовок панелі застосунку (використовуємо ! для "null assertion", оскільки перевірили вище)
+        title: Text(widget.title!),
       ),
-      body:
-          content, // Тіло екрану - визначений вище вміст (список або повідомлення)
+      body: content,
     );
   }
 }

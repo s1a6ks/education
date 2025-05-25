@@ -95,6 +95,7 @@ const dummyMeals = [
     isVegan: true, // Чи страва веганська
     isVegetarian: true, // Чи страва вегетаріанська
     isLactoseFree: true, // Чи страва без лактози
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm2',
@@ -123,6 +124,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: false,
     isLactoseFree: false,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm3',
@@ -155,6 +157,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: false,
     isLactoseFree: true,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm4',
@@ -190,6 +193,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: false,
     isLactoseFree: false,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm5',
@@ -226,6 +230,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: true,
     isLactoseFree: true,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm6',
@@ -262,6 +267,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: true,
     isLactoseFree: false,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm7',
@@ -293,6 +299,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: true,
     isLactoseFree: false,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm8',
@@ -326,6 +333,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: false,
     isLactoseFree: true,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm9',
@@ -375,6 +383,7 @@ const dummyMeals = [
     isVegan: false,
     isVegetarian: true,
     isLactoseFree: false,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
   Meal(
     id: 'm10',
@@ -409,5 +418,6 @@ const dummyMeals = [
     isVegan: true,
     isVegetarian: true,
     isLactoseFree: true,
+    isLowCarb: false, // Чи страва з низьким вмістом вуглеводів
   ),
 ];

@@ -193,7 +193,7 @@ namespace DocumentFactory.ViewModels
         {
             try
             {
-                // Валідація загальних полів
+
                 if (string.IsNullOrWhiteSpace(Title))
                 {
                     StatusMessage = "Помилка: Назва документа не може бути порожньою.";

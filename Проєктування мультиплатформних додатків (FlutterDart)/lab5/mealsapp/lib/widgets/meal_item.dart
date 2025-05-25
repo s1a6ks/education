@@ -1,142 +1,117 @@
-import 'package:flutter/material.dart'; // Імпорт основної бібліотеки віджетів Flutter (для Material Design)
-import 'package:transparent_image/transparent_image.dart'; // Імпорт пакета для використання прозорого зображення як плейсхолдера
+import 'package:flutter/material.dart';
+import 'package:transparent_image/transparent_image.dart';
 
-import 'package:meals/widgets/meal_item_trait.dart'; // Імпорт файлу з віджетом для відображення характеристик страви
-import 'package:meals/models/meal.dart'; // Імпорт файлу з моделлю даних Страви
+import 'package:meals/widgets/meal_item_trait.dart';
+import 'package:meals/models/meal.dart';
 
-// Віджет MealItem є StatelessWidget, оскільки відображає дані страви та функцію натискання, передані йому
 class MealItem extends StatelessWidget {
   const MealItem({
     super.key,
-    required this.meal, // Об'єкт страви, яку потрібно відобразити
-    required this.onSelectMeal, // Функція зворотного виклику, яка викликається при натисканні на елемент страви
+    required this.meal,
+    required this.onSelectMeal,
   });
 
-  final Meal meal; // Страва для відображення
-  final void Function(Meal meal)
-  onSelectMeal; // Функція, яка виконується при виборі страви
+  final Meal meal;
+  
+  final void Function(Meal meal) onSelectMeal;
 
-  // Геттер для форматування тексту складності приготування (перша літера велика)
   String get complexityText {
-    return meal.complexity.name[0]
-            .toUpperCase() + // Перша літера назви enum у верхньому регістрі
-        meal.complexity.name.substring(1); // Решта тексту назви enum
+    return meal.complexity.name[0].toUpperCase() +
+        meal.complexity.name.substring(1);
   }
 
-  // Геттер для форматування тексту доступності за ціною (перша літера велика)
   String get affordabilityText {
-    return meal.affordability.name[0]
-            .toUpperCase() + // Перша літера назви enum у верхньому регістрі
-        meal.affordability.name.substring(1); // Решта тексту назви enum
+    return meal.affordability.name[0].toUpperCase() +
+        meal.affordability.name.substring(1);
   }
 
   @override
   Widget build(BuildContext context) {
-    // Метод build описує UI елемента списку страв
     return Card(
-      // Використання віджета Card для візуального оформлення елемента списку
-      margin: const EdgeInsets.all(8), // Зовнішні відступи картки
+      margin: const EdgeInsets.all(8),
       shape: RoundedRectangleBorder(
-        // Форма картки
-        borderRadius: BorderRadius.circular(8), // Заокруглення кутів картки
+        borderRadius: BorderRadius.circular(12),
       ),
-      clipBehavior: Clip.hardEdge, // Обрізання вмісту за формою картки
-      elevation: 2, // Тінь під карткою
+      clipBehavior: Clip.hardEdge,
+      elevation: 0, // замість стандартної тіні — власна тінь у контейнері
       child: InkWell(
-        // Віджет InkWell робить картку клікабельною та додає візуальний ефект при натисканні
         onTap: () {
-          // Функція, яка викликається при натисканні
-          onSelectMeal(
-            meal,
-          ); // Виклик функції onSelectMeal, передаючи поточну страву
+          onSelectMeal(meal);
         },
-        child: Stack(
-          // Використання віджета Stack для накладання віджетів один на одного (текст та характеристики поверх зображення)
-          children: [
-            // Відображення зображення страви з ефектом плавного появи при завантаженні
-            FadeInImage(
-              placeholder: MemoryImage(
-                kTransparentImage,
-              ), // Прозоре зображення як плейсхолдер під час завантаження
-              image: NetworkImage(
-                meal.imageUrl,
-              ), // Завантаження зображення з URL
-              fit:
-                  BoxFit
-                      .cover, // Масштабування зображення для заповнення області
-              height: 200, // Висота зображення
-              width:
-                  double.infinity, // Ширина зображення (на всю доступну ширину)
-            ),
-            Positioned(
-              // Позиціонування віджета поверх зображення
-              bottom: 0, // Прив'язка до нижнього краю
-              left: 0, // Прив'язка до лівого краю
-              right: 0, // Прив'язка до правого краю
-              child: Container(
-                // Контейнер для тексту та характеристик страви
-                color: Colors.black54, // Напівпрозорий чорний фон
-                padding: const EdgeInsets.symmetric(
-                  vertical: 6,
-                  horizontal: 44,
-                ), // Внутрішні відступи
-                child: Column(
-                  // Вміст контейнера у вертикальному стовпці
-                  children: [
-                    // Відображення назви страви
-                    Text(
-                      meal.title, // Текст назви страви
-                      maxLines: 2, // Максимальна кількість рядків для назви
-                      textAlign:
-                          TextAlign.center, // Вирівнювання тексту по центру
-                      softWrap:
-                          true, // Переносити текст на новий рядок за потреби
-                      overflow:
-                          TextOverflow
-                              .ellipsis, // Якщо текст задовгий, додавати "..." в кінці
-                      style: const TextStyle(
-                        // Стиль тексту назви
-                        fontSize: 20, // Розмір шрифту
-                        fontWeight: FontWeight.bold, // Жирний шрифт
-                        color: Colors.white, // Колір тексту - білий
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(12),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.2),
+                blurRadius: 6,
+                offset: const Offset(2, 4),
+              ),
+            ],
+        
+          ),
+          child: Stack(
+            children: [
+              FadeInImage(
+                placeholder: MemoryImage(kTransparentImage),
+                image: NetworkImage(meal.imageUrl),
+                fit: BoxFit.cover,
+                height: 200,
+                width: double.infinity,
+              ),
+              Positioned(
+                bottom: 0,
+                left: 0,
+                right: 0,
+                child: Container(
+                  color: Colors.black54,
+                  padding: const EdgeInsets.symmetric(
+                    vertical: 6,
+                    horizontal: 44,
+                  ),
+                  child: Column(
+                    children: [
+                      Text(
+                        meal.title,
+                        maxLines: 2,
+                        textAlign: TextAlign.center,
+                        softWrap: true,
+                        overflow: TextOverflow.ellipsis,
+                        style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.white,
+                            ),
                       ),
-                    ),
-                    const SizedBox(height: 12), // Вертикальний відступ
-                    Row(
-                      // Рядок для відображення характеристик страви
-                      mainAxisAlignment:
-                          MainAxisAlignment
-                              .center, // Вирівнювання елементів рядка по центру
-                      children: [
-                        // Використання віджета MealItemTrait для відображення тривалості приготування
-                        MealItemTrait(
-                          icon: Icons.schedule, // Іконка годинника
-                          label:
-                              '${meal.duration} min', // Текст: тривалість + " min"
-                        ),
-                        const SizedBox(width: 12), // Горизонтальний відступ
-                        // Використання віджета MealItemTrait для відображення складності приготування
-                        MealItemTrait(
-                          icon: Icons.work, // Іконка роботи
-                          label:
-                              complexityText, // Текст: форматована складність
-                        ),
-                        const SizedBox(width: 12), // Горизонтальний відступ
-                        // Використання віджета MealItemTrait для відображення доступності за ціною
-                        MealItemTrait(
-                          icon: Icons.attach_money, // Іконка грошей
-                          label:
-                              affordabilityText, // Текст: форматована доступність
-                        ),
-                      ],
-                    ),
-                  ],
+                      const SizedBox(height: 12),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          MealItemTrait(
+                            icon: Icons.schedule,
+                            label: '${meal.duration} min',
+                          ),
+                          const SizedBox(width: 12),
+                          MealItemTrait(
+                            icon: Icons.work,
+                            label: complexityText,
+                          ),
+                          const SizedBox(width: 12),
+                          MealItemTrait(
+                            icon: Icons.attach_money,
+                            label: affordabilityText,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
   }
 }
+
