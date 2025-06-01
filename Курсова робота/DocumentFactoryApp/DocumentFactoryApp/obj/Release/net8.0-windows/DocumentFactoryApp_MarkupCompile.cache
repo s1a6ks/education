@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\edu\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Debug\net8.0-windows\
+C:\edu\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\obj\Release\net8.0-windows\
 DocumentFactoryApp
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 C:\edu\education\Курсова робота\DocumentFactoryApp\DocumentFactoryApp\App.xaml
 2420555587
 
-10-215275546
+101030709384
 1981839832580
 Views\DocumentDetailsWindow.xaml;Views\MainWindow.xaml;
 

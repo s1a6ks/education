@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DocumentFactoryApp",
+    "\\DocumentFactoryApp\\Models",
+    "\\DocumentFactoryApp\\Services",
+    "\\DocumentFactoryApp\\Views"
+  ],
+  "SelectedNode": "\\DocumentFactoryApp\\Services\\DocumentService.cs",
+  "PreviewInSolutionExplorer": false
+}
