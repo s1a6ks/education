@@ -1,58 +1,40 @@
 <?php
-$host = "localhost";
-$user = "root";
-$password = ""; // У XAMPP стандартно пароль порожній
-$dbname = "event_system";
-
-// Підключення до MySQL
-$conn = new mysqli($host, $user, $password);
-
-// Перевірка з'єднання
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "EventManager";
+// Підключення
+$conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Помилка з'єднання: " . $conn->connect_error);
 }
 
-// Створення бази даних
-$sql = "CREATE DATABASE IF NOT EXISTS $dbname";
-if ($conn->query($sql) === TRUE) {
-    $success_db = "Базу даних '$dbname' створено успішно або вона вже існує.<br>";
-} else {
-    $error_db = "Помилка при створенні БД: " . $conn->error;
+$message = '';
+$message_type = '';
+
+// Додавання події
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $title = trim($_POST['title'] ?? '');
+    $event_date = trim($_POST['event_date'] ?? '');
+    $location = trim($_POST['location'] ?? '');
+    $participants = intval($_POST['participants'] ?? 0);
+    if ($title && $event_date && $location) {
+        $stmt = $conn->prepare("INSERT INTO events (title, event_date, location, participants) VALUES (?, ?, ?, ?)");
+        $stmt->bind_param("sssi", $title, $event_date, $location, $participants);
+        if ($stmt->execute()) {
+            $message = 'Подію додано успішно!';
+            $message_type = 'success';
+            // Очищення форми після успішного додавання
+            $_POST = array();
+        } else {
+            $message = 'Помилка: ' . $stmt->error;
+            $message_type = 'error';
+        }
+    } else {
+        $message = 'Заповніть усі поля.';
+        $message_type = 'error';
+    }
 }
-
-// Підключення до новоствореної бази
-$conn->select_db($dbname);
-
-// Створення таблиці events
-$sql_events = "CREATE TABLE IF NOT EXISTS events (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    description TEXT,
-    date DATE NOT NULL
-)";
-$conn->query($sql_events);
-
-// Створення таблиці participants
-$sql_participants = "CREATE TABLE IF NOT EXISTS participants (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    email VARCHAR(100),
-    event_id INT,
-    FOREIGN KEY (event_id) REFERENCES events(id) ON DELETE CASCADE
-)";
-$conn->query($sql_participants);
-
-// Створення таблиці organizers
-$sql_organizers = "CREATE TABLE IF NOT EXISTS organizers (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    contact_email VARCHAR(100)
-)";
-$conn->query($sql_organizers);
-
-$success_tables = "Усі таблиці створено успішно.";
-
-$conn->close();
 ?>
 
 <!DOCTYPE html>
@@ -60,61 +42,170 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .message {
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 4px;
-        }
-        
-        .success {
-            background-color: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-        
-        .error {
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-    </style>
+    <title>Event Manager</title>
 </head>
 <body>
     <div class="container">
-        <h1>Система подій</h1>
-        
-        <?php if (isset($success_db)): ?>
-            <div class="message success"><?php echo $success_db; ?></div>
+        <?php if ($message): ?>
+            <div class="message <?= $message_type ?>">
+                <?= htmlspecialchars($message) ?>
+            </div>
         <?php endif; ?>
         
-        <?php if (isset($error_db)): ?>
-            <div class="message error"><?php echo $error_db; ?></div>
-        <?php endif; ?>
-        
-        <div class="message success"><?php echo $success_tables; ?></div>
+        <h2>Додати подію</h2>
+        <form method="POST" class="event-form">
+            <div class="form-group">
+                <label>Назва події</label>
+                <input type="text" name="title" value="<?= htmlspecialchars($_POST['title'] ?? '') ?>" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Дата</label>
+                <input type="date" name="event_date" value="<?= htmlspecialchars($_POST['event_date'] ?? '') ?>" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Місце проведення</label>
+                <input type="text" name="location" value="<?= htmlspecialchars($_POST['location'] ?? '') ?>" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Кількість учасників</label>
+                <input type="number" name="participants" min="0" value="<?= htmlspecialchars($_POST['participants'] ?? '0') ?>" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Додати подію</button>
+        </form>
     </div>
 </body>
 </html>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #495057;
+}
+
+.container {
+    background: white;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #e9ecef;
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.15s ease;
+    background: white;
+    color: #495057;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6c757d;
+}
+
+input:hover {
+    border-color: #adb5bd;
+}
+
+.submit-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background: #5a6268;
+}
+
+.submit-btn:active {
+    background: #545b62;
+}
+
+.message {
+    padding: 12px;
+    border-radius: 4px;
+    margin: 16px 0;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+}
+
+.message.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 20px;
+        margin: 10px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+}
+</style>
