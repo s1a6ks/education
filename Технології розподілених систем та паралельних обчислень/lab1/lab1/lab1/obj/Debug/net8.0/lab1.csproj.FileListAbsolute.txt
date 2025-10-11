@@ -1,0 +1,15 @@
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\bin\Debug\net8.0\lab1.exe
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\bin\Debug\net8.0\lab1.deps.json
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\bin\Debug\net8.0\lab1.runtimeconfig.json
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\bin\Debug\net8.0\lab1.dll
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\bin\Debug\net8.0\lab1.pdb
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.AssemblyInfoInputs.cache
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.AssemblyInfo.cs
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.csproj.CoreCompileInputs.cache
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.sourcelink.json
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.dll
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\refint\lab1.dll
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.pdb
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\lab1.genruntimeconfig.cache
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab1\lab1\lab1\obj\Debug\net8.0\ref\lab1.dll

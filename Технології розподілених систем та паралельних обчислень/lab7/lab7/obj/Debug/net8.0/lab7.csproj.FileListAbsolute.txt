@@ -1,0 +1,15 @@
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\bin\Debug\net8.0\lab7.exe
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\bin\Debug\net8.0\lab7.deps.json
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\bin\Debug\net8.0\lab7.runtimeconfig.json
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\bin\Debug\net8.0\lab7.dll
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\bin\Debug\net8.0\lab7.pdb
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.AssemblyInfoInputs.cache
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.AssemblyInfo.cs
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.csproj.CoreCompileInputs.cache
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.sourcelink.json
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.dll
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\refint\lab7.dll
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.pdb
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\lab7.genruntimeconfig.cache
+C:\edu\education\Технології розподілених систем та паралельних обчислень\lab7\lab7\obj\Debug\net8.0\ref\lab7.dll
